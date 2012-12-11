@@ -3,6 +3,7 @@ $red: #C00;
 $subhead: #AA9C84;
 $proxima: 'Varela', 'Helvetica Neue', Helvetica, sans-serif;
 $icon: #51C3C3;
+$border: 1px solid #D4CDC1;
 
 body {
   font-family: $proxima;
@@ -30,8 +31,18 @@ a {
   text-decoration: none;
 }
 
+.right {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 nav {
-  border-bottom: 1px solid #D4CDC1;
+  border-bottom: $border;
   font-size: 18px;
   position: fixed;
   top: 0;
@@ -43,15 +54,11 @@ nav {
     margin: 10px 10px 10px;
   }
 
-  #nav_first {
-    margin-left: 55px;
-  }
 }
-
 
 header {
   text-align: center;
-  margin: 55px 0px 55px 0px;
+  margin: 65px 0px 50px 0px;
 }
 
 .section_link a {
@@ -127,10 +134,7 @@ background-color: $link;
 }
 
 footer {
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
+  border-top: $border;
+  padding: 20px;
+  text-align: right;
 }

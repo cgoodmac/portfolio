@@ -19,8 +19,16 @@ a {
   color: #0066cc;
   text-decoration: none; }
 
+.right {
+  float: right; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 nav {
-  border-bottom: 1px solid #D4CDC1;
+  border-bottom: 1px solid #d4cdc1;
   font-size: 18px;
   position: fixed;
   top: 0;
@@ -29,12 +37,10 @@ nav {
   nav li {
     float: left;
     margin: 10px 10px 10px; }
-  nav #nav_first {
-    margin-left: 55px; }
 
 header {
   text-align: center;
-  margin: 70px 0px 55px 0px; }
+  margin: 65px 0px 50px 0px; }
 
 .section_link a {
   color: black; }
@@ -92,7 +98,7 @@ img {
   background: url("../images/icon_html@2x.png") #0066cc no-repeat center;
   background-size: auto 30px; }
 
-.group:after {
-  content: "";
-  display: table;
-  clear: both; }
+footer {
+  border-top: 1px solid #d4cdc1;
+  padding: 20px;
+  text-align: right; }
