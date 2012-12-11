@@ -1,0 +1,136 @@
+$link: #06C;
+$red: #C00;
+$subhead: #AA9C84;
+$proxima: 'Varela', 'Helvetica Neue', Helvetica, sans-serif;
+$icon: #51C3C3;
+
+body {
+  font-family: $proxima;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  margin: 20px 0px 30px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: $red;
+  margin: 15px 0px 15px 0px;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+}
+
+nav {
+  border-bottom: 1px solid #D4CDC1;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+
+  li {
+    float: left;
+    margin: 10px 10px 10px;
+  }
+
+  #nav_first {
+    margin-left: 55px;
+  }
+}
+
+
+header {
+  text-align: center;
+  margin: 55px 0px 55px 0px;
+}
+
+.section_link a {
+  color: black;
+}
+
+p {
+
+    margin-top: 10px;
+}
+
+#plans_table {
+  margin: 50px auto;
+  background-color: #FFC;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 30px 30px;
+
+    h3 {
+      color: black;
+    }
+}
+
+.subhead {
+  color: $subhead;
+}
+
+.feature_list {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 20px;
+
+  li {
+    margin: 8px 0px 8px 0px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon {
+height: 80px;
+width: 80px;
+border-radius: 40px;
+line-height: 40px;
+color: white;
+font-weight: 800;
+font-size: 40px;
+text-align: center;
+margin: auto;
+background-color: $link;
+}
+
+#icon-bonus {
+  background: url("../images/icon_bonus@2x.png") $link no-repeat center;
+  background-size: auto 27px;
+}
+
+#icon-rails {
+  background: url("../images/icon_rails@2x.png") $link no-repeat center;
+  background-size: auto 25px;
+}
+
+#icon-js {
+  background: url("../images/icon_js@2x.png") $link no-repeat center;
+  background-size: auto 30px;
+}
+
+#icon-html {
+  background: url("../images/icon_html@2x.png") $link no-repeat center;
+  background-size: auto 30px;
+}
+
+footer {
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
