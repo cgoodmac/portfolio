@@ -38,6 +38,9 @@ nav {
     float: left;
     margin: 10px 10px 10px; }
 
+#nav_wrapper {
+  width: 100%; }
+
 header {
   text-align: center;
   margin: 65px 0px 50px 0px; }
