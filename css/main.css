@@ -69,9 +69,16 @@ p {
   font-size: 20px; }
   .feature_list li {
     margin: 8px 0px 8px 0px; }
+  .feature_list li a {
+    color: #0066cc;
+    text-decoration: none; }
 
 img {
   max-width: 100%; }
+
+#learn {
+  margin-bottom: 10px;
+}  
 
 .icon {
   height: 80px;
@@ -100,6 +107,10 @@ img {
 #icon-html {
   background: url("../images/icon_html@2x.png") #0066cc no-repeat center;
   background-size: auto 30px; }
+
+#last {
+  margin-bottom: 30px;
+}
 
 footer {
   border-top: 1px solid #d4cdc1;
